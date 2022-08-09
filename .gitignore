@@ -1,0 +1,4 @@
+### VS Code ###
+.vscode/
+.vs_code/
+node_modules/
