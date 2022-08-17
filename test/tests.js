@@ -6,3 +6,9 @@ describe('GET /', () => {
     request(app).get('/').expect('Express', done);
   });
 });
+
+describe('GET /users', () => {
+  it('responds with user', (done) => {
+    request(app).get('/users').expect('user', done);
+  });
+});
